@@ -42,7 +42,7 @@ function App() {
 
           <div class="mid-image">
             <img src="images/mama-susans.png" class="mid-image-class"></img>
-            <p class="about-text-title"><i>From Humble Beginnings, to Metro-South Favorite</i></p>
+            <p class="about-text-title"><i>"From Humble Beginnings, to Metro-South Favorite"</i></p>
             <h1 class="about-text-title-2"><i>Kain po tayo!</i></h1>
           </div>
           
@@ -90,11 +90,34 @@ function App() {
             <p class="about-text-p5">
             We're excited to keep growing and serving you better. Thank you for your support!
             </p>
-            
           </div>
 
 
+          
+          <div class="semi-footer">
 
+            <div class="box1">
+              <h2 class="text1">OUR STORES</h2>
+              <p class="p1">86 Saging Street, BF International Village, <br></br> Las Piñas City</p>
+            </div>
+
+            <div class="box2">
+              <h2 class="text2">CONTACT US</h2>
+              <p class="p1">(02) 8651-0081</p>
+            </div>
+
+            <div class="box3">
+              <h2 class="text3">DELIVERY PLATFORMS</h2>
+              <p class="p1">Order via Grabfood | Foodpanda | Messenger
+              </p>
+            </div>
+
+            <div class="box4">
+              <h2 class="text4">PAYMENT OPTIONS</h2>
+              <p class="p1">GCash, Maya</p>
+            </div>
+
+          </div>
 
         </div>
 
