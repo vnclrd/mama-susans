@@ -12,12 +12,17 @@
   min-height: 15vh;
   display: flex; 
   align-items: center; /* center items */
-  justify-content: space-around; /* makes space for all items */
+  justify-content: center;
+  gap: 250px;
 }
 
 .header-photo {
   width: 200px;
   filter: drop-shadow(0 0 40px rgb(255, 255, 255));
+}
+
+ul.options {
+  padding-left: 100px;
 }
 
 ul li {
@@ -29,8 +34,8 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 20px;
 }
 
 .body1 {
