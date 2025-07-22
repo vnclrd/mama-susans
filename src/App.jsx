@@ -40,13 +40,13 @@ function App() {
             </div>
           </div>
 
-          <div>
-            <h2 class="about">Mama Susan's: From Humble Beginnings to Metro-South Favorite.... Kain po tayo!</h2>
+          <div class="about">
+            <h2 class="about-text-title">Mama Susan's: From Humble Beginnings to Metro-South Favorite.... Kain po tayo!</h2>
 
             <br></br>
 
-            <h2 class="about">Our Story</h2>
-            <p class="about">
+            <h3 class="about-text-story">Our Story</h3>
+            <p class="about-text">
               In 2016, Mama Susan's emerged as a humble, yet authentic, "tapsihan" experience.
               Nestled within the heart of BF International VIllage, Las Piñas City, our initial
               offering was a simple four-seater counter, dedicated to serving classic Filipino
@@ -56,7 +56,7 @@ function App() {
 
             <br></br>
 
-            <p class="about">
+            <p class="about-text">
               The overwhelming positive response fueled our ambition to grow. Recognizing the
               demand for accessible, delicious meals at any hour, Mama Susan's transitioned to
               24-hour operations. This expansion allowed us to cater to the diverse schedules of
@@ -67,8 +67,8 @@ function App() {
 
             <br></br>
 
-            <h2 class="about">Easy Ordering, Delivered!</h2>
-            <p class="about">
+            <h2 class="about-text">Easy Ordering, Delivered!</h2>
+            <p class="about-text">
             Now, through our online presence and partnerships with GrabFood and Foodpanda, we
             serve even more customers. We deliver to Las Piñas City, Parañaque City, Pasay City,
             and parts of Cavite.
@@ -76,8 +76,8 @@ function App() {
 
             <br></br>
 
-            <h2 class="about">Our Mission?</h2>
-            <p class="about">
+            <h2 class="about-text">Our Mission?</h2>
+            <p class="about-text">
             Simply, to serve afordable delicious food!  We are committed to always strive for
             your satisfaction, continuously improve our service, and serve delicious meals at
             affordable prices.
@@ -85,8 +85,8 @@ function App() {
 
             <br></br>
 
-            <h2 class="about">What's Next?</h2>
-            <p class="about">
+            <h2 class="about-text">What's Next?</h2>
+            <p class="about-text">
             We're excited to keep growing and serving you better. Thank you for your support!
             </p>
             

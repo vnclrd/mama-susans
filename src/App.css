@@ -92,6 +92,26 @@ ul li a {
   min-height: 150vh;
 }
 
+.about {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.about-text, .about-text-title, .about-text-story {
+  color: #E69720;
+  display: flex;
+}
+
+.about-text-title {
+  padding-bottom: 25px;
+}
+
+.about-text-story {
+  padding-bottom: 10px;
+}
+
+
+
 .footer {
   background-color: rgb(36, 36, 36);
   color: #ffffff;
