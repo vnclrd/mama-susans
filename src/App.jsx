@@ -12,10 +12,10 @@ function App() {
         <div id="header" class="header">
           <img src="images/mama-susans.png" class="header-photo"></img>
           <ul class="options">
-            <li><a href="#"><b>HOME</b></a></li>
-            <li><a href="#"><b>MENU</b></a></li>
-            <li><a href="#"><b>GALLERY</b></a></li>
-            <li><a href="#"><b>FEEDBACKS</b></a></li>
+            <li><a href="#home"><b>HOME</b></a></li>
+            <li><a href="#menu"><b>MENU</b></a></li>
+            <li><a href="#gallery"><b>GALLERY</b></a></li>
+            <li><a href="#feedbacks"><b>FEEDBACKS</b></a></li>
           </ul>
         </div>
       </header>

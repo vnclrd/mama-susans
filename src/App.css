@@ -32,7 +32,7 @@ ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 2vh;
-  padding: 20px;
+  margin: 25px;
 }
 
 .body1 {
@@ -53,7 +53,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  filter: drop-shadow(0 0 75px rgb(255, 255, 255));
+  filter: drop-shadow(0 0 50px rgb(255, 255, 255));
 }
 
 .phrase2 {
@@ -63,6 +63,7 @@ ul li a {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 50px;
+  filter: drop-shadow(0 0 50px rgb(255, 255, 255));
 }
 
 .image-container {
@@ -76,8 +77,8 @@ ul li a {
 
 .image1, .image2 {
   background-color: #E69720;
-  width: 40vh;
-  height: 55vh;
+  width: 30vh;
+  height: 45vh;
   overflow: hidden;
 }
 
@@ -95,8 +96,8 @@ ul li a {
 }
 
 .about {
-  padding-left: 40vh;
-  padding-right: 40vh;
+  padding-left: 35vh;
+  padding-right: 35vh;
 }
 
 .mid-image {
