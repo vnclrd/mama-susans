@@ -22,11 +22,10 @@ function App() {
 
       <body>
         <div id="body1" class="body1">
-          <h1>This is body 1</h1>
+          <img src="./public/img/cover-photo.webp"></img>
         </div>
 
         <div id="body2" class="body2">
-          <h1>This is body 2</h1>
         </div>
       </body>
 

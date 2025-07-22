@@ -6,7 +6,7 @@
 }
 
 .header {
-  background-color: #000000;
+  background-color: rgb(36, 36, 36);
   color: #ffffff;
   width: 100%;
   min-height: 15vh;
@@ -32,6 +32,12 @@ ul li a {
   background-color: #fff;
   width: 100%;
   min-height: 75vh;
+  display: flex; /* Use flexbox to easily center/control image placement */
+}
+
+.body1 img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .body2 {
