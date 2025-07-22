@@ -10,7 +10,7 @@ function App() {
 
       <header>
         <div id="header" class="header">
-          <img src="./public/img/mama-susans.png" class="header-photo"></img>
+          <img src="public/images/mama-susans.png" class="header-photo"></img>
           <ul class="options">
             <li><a href="#"><b>HOME</b></a></li>
             <li><a href="#"><b>MENU</b></a></li>
@@ -23,7 +23,7 @@ function App() {
       <body>
 
         <div id="body1" class="body1">
-          <img src="./public/img/cover-photo.webp"></img>
+          <img src="public/images/cover-photo.webp"></img>
         </div>
 
         <div id="body2" class="body2">
