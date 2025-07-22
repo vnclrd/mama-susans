@@ -43,7 +43,7 @@ function App() {
           <div class="mid-image">
             <img src="images/mama-susans.png" class="mid-image-class"></img>
             <h1 class="about-text-title">From Humble Beginnings, to Metro-South Favorite</h1>
-            <h1 class="about-text-title">Kain po tayo!</h1>
+            <h1 class="about-text-title-2">Kain po tayo!</h1>
           </div>
           
           <div class="about">

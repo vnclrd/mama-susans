@@ -17,12 +17,9 @@
 }
 
 .header-photo {
-  width: 200px;
+  width: 30vh;
+  margin-right: 50vh;
   filter: drop-shadow(0 0 40px rgb(255, 255, 255));
-}
-
-ul.options {
-  padding-left: 100px;
 }
 
 ul li {
@@ -34,7 +31,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 2vh;
   padding: 20px;
 }
 
@@ -127,7 +124,13 @@ ul li a {
 }
 
 .about-text-title {
-  padding-bottom: 20px;
+  padding-bottom: 2vh;
+  line-height: 25px;
+}
+
+.about-text-title-2 {
+  color: #E69720;
+  padding-bottom: 3vh;
   line-height: 25px;
 }
 
@@ -136,10 +139,18 @@ ul li a {
   padding-bottom: 10px;
 }
 
-.about-text-p1, .about-text-p2, .about-text-p3,
+.about-text-p1 {
+  color: #E69720;
+  padding-bottom: 3vh;
+  line-height: 4vh;
+  text-align: justify;
+  font-size: 3vh;
+}
+
+.about-text-p2, .about-text-p3,
 .about-text-p4, .about-text-p5 {
   color: #E69720;
-  padding-bottom: 20px;
+  padding-bottom: 5vh;
   line-height: 4vh;
   text-align: justify;
   font-size: 3vh;
