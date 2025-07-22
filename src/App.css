@@ -1,42 +1,52 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  min-height: 15vh;
+  display: flex; 
+  align-items: center; /* center items */
+  justify-content: space-around; /* makes space for all items */
+}
+
+ul li {
+  color: #ffffff;
+  list-style: none;
+  display: inline-block; /* puts items beside each other */
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.body1 {
+  background-color: #fff;
+  width: 100%;
+  min-height: 75vh;
+}
+
+.body2 {
+  background-color: rgb(36, 36, 36);
+  width: 100%;
+  min-height: 150vh;
+}
+
+.footer {
+  background-color: rgb(36, 36, 36);
+  color: #ffffff;
+  width: 100%;
+  min-height: 20vh;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  display: flex; /* puts items beside each other */
+  align-items: center; /* center items */
+  justify-content: space-around; /* makes space for all items */
 }

@@ -1,33 +1,40 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <head>
+        <title>Mama Susan's</title>
+      </head>
+
+      <header>
+        <div id="header" class="header">
+          <h1>This is the header</h1>
+          <ul class>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">FEEDBACKS</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <body>
+        <div id="body1" class="body1">
+          <h1>This is body 1</h1>
+        </div>
+
+        <div id="body2" class="body2">
+          <h1>This is body 2</h1>
+        </div>
+      </body>
+
+      <footer>
+        <div id="footer" class="footer">
+          <h1> &copy; All rights reserved.</h1>
+        </div>
+      </footer>
     </>
   )
 }
