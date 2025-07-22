@@ -67,23 +67,25 @@ ul li a {
 
 .image-container {
   color: #fff;
-  padding: 50px;
+  padding: 3vh;
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 75px;
   margin-bottom: 50px;
 }
 
-.image1 {
+.image1, .image2 {
   background-color: #E69720;
-  padding: 20px;
-  height: 400px;
+  width: 40vh;
+  height: 55vh;
+  overflow: hidden;
 }
 
-.image2 {
-  background-color: rebeccapurple;
-  padding: 20px;
-  height: 400px
+.image1 img, .image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .body2 {

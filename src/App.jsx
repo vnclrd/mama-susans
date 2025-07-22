@@ -32,11 +32,11 @@ function App() {
 
           <div class="image-container">
             <div class="image1">
-              <h1>This is for image 1</h1>
+              <img src="images/badge-1.webp"></img>
             </div>
 
             <div class="image2">
-              <h1>This is for image 2</h1>
+              <img src="images/badge-2.webp"></img>
             </div>
           </div>
 
