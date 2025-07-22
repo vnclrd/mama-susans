@@ -124,14 +124,15 @@ ul li a {
 }
 
 .about-text-title {
+  font-size: x-large;
   padding-bottom: 2vh;
-  line-height: 25px;
 }
 
 .about-text-title-2 {
   color: #E69720;
   padding-bottom: 3vh;
   line-height: 25px;
+  font-size: x-large;
 }
 
 .about-text-story, .about-text-easy, .about-text-mission,
