@@ -26,6 +26,20 @@ function App() {
         </div>
 
         <div id="body2" class="body2">
+
+          <h1 class="phrase1">WE ARE OPEN 24 HOURS, EVERYDAY!</h1>
+          <h2 class="phrase2"> DINE IN - TAKE-OUT - DELIVERY</h2>
+
+          <div class="image-container">
+            <div class="image1">
+              <h1>This is for image 1</h1>
+            </div>
+
+            <div class="image2">
+              <h1>This is for image 2</h1>
+            </div>
+          </div>
+
         </div>
       </body>
 

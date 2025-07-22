@@ -40,6 +40,42 @@ ul li a {
   object-fit: cover;
 }
 
+.phrase1 {
+  color: #E69720;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.phrase2 {
+  color: #E69720;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-container {
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.image1 {
+  background-color: #E69720;
+  padding: 20px;
+  height: 400px;
+}
+
+.image2 {
+  background-color: rebeccapurple;
+  padding: 20px;
+  height: 400px
+}
+
 .body2 {
   background-color: rgb(36, 36, 36);
   width: 100%;
