@@ -15,6 +15,11 @@
   justify-content: space-around; /* makes space for all items */
 }
 
+.header-photo {
+  width: 200px;
+  filter: drop-shadow(0 0 40px rgb(255, 255, 255));
+}
+
 ul li {
   color: #ffffff;
   list-style: none;

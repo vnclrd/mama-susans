@@ -10,7 +10,7 @@ function App() {
 
       <header>
         <div id="header" class="header">
-          <h1>This is the header</h1>
+          <img src="./public/img/mama-susans.png" class="header-photo"></img>
           <ul class>
             <li><a href="#">HOME</a></li>
             <li><a href="#">MENU</a></li>
